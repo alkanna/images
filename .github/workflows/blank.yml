@@ -27,6 +27,6 @@ jobs:
         uses: macbre/push-to-ghcr@v7
         with:
           # Your secrets.GITHUB_TOKEN
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN }}
           # Image name, e.g. my-user-name/my-repo
           image_name: alkanna/java11ptero
